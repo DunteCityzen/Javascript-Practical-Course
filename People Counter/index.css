@@ -1,0 +1,54 @@
+.page__container {
+    text-align: center;
+}
+
+
+
+.page__container > h2 {
+    font-weight: 1000px;
+    font-size: 500%;
+    padding: 0%;
+    color: green
+}
+
+.page__container > h1 {
+    
+    font-size: 400%;
+    padding: 0%;
+    color: green;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/people.jpg);
+}
+
+.buttons {
+    border-radius: 5px;
+    margin-top: 6%;
+}
+
+.previous_entries {
+    color: green;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.btn-increment {
+    margin-bottom: 1.5%;
+}
+
+.btn-increment > button {
+    background-color: red;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px 80px;
+}
+
+.btn-save > button {
+    background-color: deepskyblue;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px 90px;
+}
