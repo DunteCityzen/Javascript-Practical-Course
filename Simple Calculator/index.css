@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    max-width: auto;
+    margin: 5px 15%;
+    
+}
+
+.calc_container {
+    border: black;
+    border-style: solid;
+    background-color: antiquewhite;
+}
+
+.input_section {
+    margin-top: 3%;
+}
+
+#operand1 {
+    
+    background-color: red;
+    padding: 10px 20px;
+    width: 20%;
+    height: 15%;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#operand2 {
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    margin-left: 50px;
+    width: 20%;
+    height: 15%;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#answer {
+    background-color: chartreuse;
+    padding: 10px 20px;
+    width: 20%;
+    height: 15%;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.button_wrapper {
+    margin: 0% 20%;
+    margin-bottom: 5%;
+}
+
+.operator_buttons_1 {
+    margin-top: 3%;
+    font-weight: bolder;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operator_buttons_2 {
+    margin-top: 3%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-add {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: aqua;
+}
+
+.btn-subtract {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: palevioletred;
+}
+
+.btn-multiply {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: blueviolet;
+}
+
+.btn-divide {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: orangered;
+}
