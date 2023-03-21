@@ -1,0 +1,42 @@
+body {
+    margin: 5%;
+}
+
+.game_container {
+    align-items: center;
+    background-color: darkgreen;
+    text-align: center;
+    padding: 20px;
+    /* margin-top: 5%; */
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#game_header {
+    color: goldenrod;
+}
+
+.play_area {
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#cards {
+    padding: 10px;
+}
+
+#sum {
+    padding: 10px;
+}
+
+.button {
+    background-color: goldenrod;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}

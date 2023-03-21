@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: beige;
+    min-width: 400px;
+}
+
+/* check scroll behavior to prevent extension body from scrolling */
+
+#input-el {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid green;
+    margin-bottom: 3px;
+}
+
+#btn-saveinput {
+    padding: 10px;
+    background-color: goldenrod;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+
+#btn-savetab {
+    padding: 10px;
+    background-color: black;
+    color: goldenrod;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+
+#btn-clear {
+    background-color: red;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+#leads-list li {
+    list-style-type: none;
+    padding: 1px;
+}
+
+li a {
+    color: green;
+    font-size: large;
+}

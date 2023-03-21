@@ -1,0 +1,11 @@
+DOM - Document Object Model
+
+This was just introduced to make javascript to be able to interact with an HTML document
+
+In javascript conditional statements, we use === (three equal signs instead of 2) to make sure we use a more strict comparison(data-type sensitive)
+
+Today I'm going to look at how to convert strings to integers and find a better input type to use for numbers.
+	To convert a string to an integer, we use an inbuilt function called parseInt() which takes in the string we want to convert as the argument.
+	Additionally we can add the base as the second argument but by default it's 10 which refers to decimal no. base.
+
+	To convert into a float value, the function here is parseFloat()
